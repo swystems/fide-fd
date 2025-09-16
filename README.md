@@ -8,3 +8,9 @@ Heartbeat Uniform Consensus (HUC) protocols from FiDe's ATC25 paper:
 
 Download the `tla2tools.jar` from [TLA+ releases](https://github.com/tlaplus/tlaplus/releases)
 
+Edit config in respective `.cfg` file and run TLC:
+
+```sh
+java -jar tla2tools.jar HUC.tla   #HUC
+java -jar tla2tools.jar HSUC.tla   #HSUC
+```
